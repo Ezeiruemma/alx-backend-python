@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-'''Task 1's module.
-'''
+add = __import__('0-add').add
 
-
-def concat(str1: str, str2: str) -> str:
-    '''Concatenates two strings.
-    '''
-    return str1 + str2
+print(add(1.11, 2.22) == 1.11 + 2.22)
+print(add.__annotations__)
