@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-add = __import__('0-add').add
+"""defines a function concat"""
 
-print(add(1.11, 2.22) == 1.11 + 2.22)
-print(add.__annotations__)
+
+def concat(str1: str, str2: str) -> str:
+    """return a concatenated string of str 1 and 2"""
+    return str1 + str2
