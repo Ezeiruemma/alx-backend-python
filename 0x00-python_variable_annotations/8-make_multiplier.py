@@ -2,10 +2,10 @@
 '''
 type-annotated function
 '''
-from typing import Callable
+from typing import Iterable, List, Sequence, Tuple
 
 
-def make_multiplier(multiplier: float) -> Callable[[float], float]:
-    '''multiplier float uses callable from typing
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
+    '''Computes  and return the length of a list of sequences.
     '''
-    return lambda x: x * multiplier
+    return [(i, len(i)) for i in lst]
