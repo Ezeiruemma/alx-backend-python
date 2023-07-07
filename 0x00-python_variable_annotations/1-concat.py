@@ -1,7 +1,20 @@
 #!/usr/bin/env python3
-"""defines a function concat"""
+"""
+python3 -c
+'print(__import__("1-concat").__doc__)'
+Write a type-annotated function to_kv that takes a string k and an int OR float v as arguments and returns a tuple. The first element of the tuple is the string k. The second element is the square of the int/float v and should be annotated as a float.
+
+Author:  Ezeiru-Elias
+"""
 
 
 def concat(str1: str, str2: str) -> str:
-    """return a concatenated string of str 1 and 2"""
+    """
+    Trying this docstring for this module
+     python3 -c
+     print(__import__("1-concat").concat.__doc__)
+
+    """
     return str1 + str2
+    python3 - c
+    print(__import__("1-concat").concat.__doc__)
