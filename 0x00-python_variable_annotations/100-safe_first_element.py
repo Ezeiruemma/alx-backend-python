@@ -1,28 +1,14 @@
 #!/usr/bin/env python3
-"""
-python3 -c
-'print(__import__("100-safe_first_element").__doc__)'
-Augment the following code with the correct duck-typed annotations:
+'''
+type-annotated function
+'''
+from typing import Any, Sequence, Union
 
 
-Author: Oluwaseun Ayela 
-"""
-
-from typing import Optional, TypeVar
-
-T = TypeVar('T')
-
-
-def safe_first_element(lst: Optional[T]) -> Optional[T]:
-    """
-    Trying this docstring for this module
-     python3 -c
-     'print(__import__("100-safe_first_element").safe_first_element.__doc__)'
-
-    """
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
+    '''Retrieves the first element of a sequence if it exists.
+    '''
     if lst:
         return lst[0]
     else:
         return None
-    python3 - c
-    print(__import__("100-safe_first_element").safe_first_element.__doc__)
