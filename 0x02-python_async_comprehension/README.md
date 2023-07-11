@@ -1,6 +1,6 @@
 # 0x02. Python - Async Comprehension
 
-https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/12/ee85b9f67c384e29525b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230711%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230711T222431Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c67f157f43a22bb9d056cd1d4fba6d81e0b738a4e3d5a97578d4b1af9eb8dabf
+![Alt text](image.png)
 
 ![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/12/ee85b9f67c384e29525b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230207%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230207T075623Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=2c60371cb14db86cc075b22669f8d38e29beadcaa28cd6445d5f33e7bf9acef2)
 
